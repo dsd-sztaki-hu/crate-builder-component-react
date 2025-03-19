@@ -72,6 +72,7 @@ defineExpose({
         :enable-entity-timestamps="props.enableEntityTimestamps"
         @ready="props.onReady"
         @error="props.onError"
+        @warning="props.onWarning"
         @save:crate="props.onSaveCrate"
         @navigation="props.onNavigation"
         @save:crate:template="props.onSaveCrateAsTemplate"

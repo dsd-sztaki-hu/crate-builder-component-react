@@ -66,6 +66,9 @@ export type DescriboCrateBuilderProps = {
   // Callback when component reports an error
   onError?: (message: string) => void,
 
+  // Callback when component reports an error
+  onWarning?: (warning: any) => void,
+
   // Callback called when the crate has changed.
   onSaveCrate?: (saveData: {crate: JSONObject}) => void,
 
